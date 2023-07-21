@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header h1 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.language-select {
+  margin-left: 10px;
+  border-style: none;
+}
+.todo-container {
+  max-width: 500px;
+  margin: 40px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.todo-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.todo-add-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.todo-item span {
+  cursor: pointer;
+}
+
+.todo-item input {
+  flex: 1;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todo-actions button {
+  margin-left: 5px;
+  padding: 4px 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.todo-actions button:hover {
+  background-color: #f0f0f0;
+}
